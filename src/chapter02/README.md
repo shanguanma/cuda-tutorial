@@ -198,7 +198,7 @@ iy = threadIdx.y + blockIdx.y * blockDim.y
 
 坐标索引: (ix, iy)
 ```
-<div align=center><img src="https://github.com/shanguanma/cuda-tutorial/blob/master/image/block-index.png" alt="logo" height="250"></div>
+<div align=center><img src="https://github.com/shanguanma/cuda-tutorial/blob/master/image/thread-index.png" alt="logo" height="250"></div>
 
 
 - **第二步，可以用以下公式把矩阵坐标映射到全局内存的索引/存储单元上，称为全局索引:**
@@ -219,7 +219,7 @@ idx = iy*nx + ix // nx 表示在x维度上元素个数, 对于(4,4)矩阵而言,
 ```
 再比如，对于一个(6,8)维度的矩阵而言，假如划分为6个块，每个块有8个线程，那么就如下图所示
 
-<div align=center><img src="https://github.com/YunYang1994/cuda-tutorial/blob/master/image/block-index.png" alt="logo" height="250"></div>
+<div align=center><img src="https://github.com/shanguanma/cuda-tutorial/blob/master/image/block-index.png" alt="logo" height="250"></div>
 
 从上图中也可以看出: `block`也有两个维度，分别是`blockIdx.x`和`blockIdx.y`，即`block`的索引坐标表示为(`blockIdx.x`,`blockIdx.y`)。类似地，在每个`block`中，线程`thread`也有两个维度。
 
