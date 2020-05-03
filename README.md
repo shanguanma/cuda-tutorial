@@ -1,4 +1,6 @@
-[![cuda 快速入门博客 ]](https://www.cnblogs.com/skyfsm/p/9673960.html）
+### 提示:
+
+[CUDA编程之快速入门!!!推荐](https://www.cnblogs.com/skyfsm/p/9673960.html)
 
 [<img src="image/cuda-c-programming.png" alt="logo" height="300" align="right" />](https://book.douban.com/subject/27108836/)
 
