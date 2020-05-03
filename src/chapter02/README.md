@@ -198,7 +198,7 @@ iy = threadIdx.y + blockIdx.y * blockDim.y
 
 坐标索引: (ix, iy)
 ```
-<div align=center><img src="https://github.com/YunYang1994/cuda-tutorial/blob/master/image/thread-index.png" alt="logo" height="250"></div>
+<div align=center><img src="https://github.com/shanguanma/cuda-tutorial/blob/master/image/block-index.png" alt="logo" height="250"></div>
 
 
 - **第二步，可以用以下公式把矩阵坐标映射到全局内存的索引/存储单元上，称为全局索引:**
