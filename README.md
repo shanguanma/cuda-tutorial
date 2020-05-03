@@ -1,7 +1,4 @@
 
-|Author|YunYang1994|
-|---|---
-|E-mail|dreameryangyun@sjtu.edu.cn
 
 [<img src="image/cuda-c-programming.png" alt="logo" height="300" align="right" />](https://book.douban.com/subject/27108836/)
 
@@ -32,3 +29,7 @@ CUDA是一种通用的并行计算平台和编程模型，是在C语言上扩展
 - [**第 1 章 基于CUDA的异构并行计算**](./src/chapter01/README.md)
 - [**第 2 章 CUDA 编程模型**](./src/chapter02/README.md)
 
+## 引用：
+|Author|YunYang1994|
+|---|---
+|E-mail|dreameryangyun@sjtu.edu.cn
