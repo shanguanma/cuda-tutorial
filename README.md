@@ -1,6 +1,7 @@
 ### 提示:
 
 [CUDA编程之快速入门!!!推荐](https://www.cnblogs.com/skyfsm/p/9673960.html)
+
 [nvidia developer blog !! 推荐](https://devblogs.nvidia.com/even-easier-introduction-cuda/)
 
 [<img src="image/cuda-c-programming.png" alt="logo" height="300" align="right" />](https://book.douban.com/subject/27108836/)
